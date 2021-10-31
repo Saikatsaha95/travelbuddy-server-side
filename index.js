@@ -135,7 +135,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", async (req, res) => {
-  res.send("This is traveral site server");
+  res.send("This is travel site server");
 });
 
 app.listen(port, () => {
